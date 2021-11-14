@@ -1,0 +1,6 @@
+<!--pages/personalCenter/myReport/myReport.wxml-->
+<view >
+  <view class='pro' bindtap="loginout" style="font-size: 30px;">安全退出</view>
+</view>
+
+

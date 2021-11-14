@@ -1,0 +1,6 @@
+
+<!-- 更新数据 --><text>{{userPassword}}</text>
+<text>{{userName}}</text>
+<input placeholder="填写要更新的id" bindinput="updateInput"></input>
+<input placeholder="填写更新后的名字" bindinput="updateName"></input>
+<button bindtap="updateData">更新数据</button>

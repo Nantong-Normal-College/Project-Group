@@ -1,0 +1,265 @@
+/**align-items: center;**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  margin: 50rpx 50rpx 20rpx 50rpx;
+  padding: 0rpx 0rpx 20rpx 0rpx;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+ color:#000000
+}
+
+
+.userinfo-avatar {
+  overflow: hidden;
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+page{
+  background: url(https://6363-ccd-pq0cs-1306162778.tcb.qcloud.la/beijing.jpg?sign=4a97b1a26b0e687a9d1327b9957ccc2e&t=1631874536) no-repeat ;
+  background-size: 100% 100%;
+}
+.cd{
+  
+  height: 190px;
+  
+  border-radius: 25rpx;
+  margin: 20rpx 50rpx 100rpx 50rpx;
+  padding: 0rpx 0rpx 20rpx 0rpx;
+  font-size: 25rpx;
+  box-shadow:0px 0px 5px #000000;
+  background-color: white;
+  
+  
+   background-size:100% 100%;
+
+   -moz-background-size:100% 100%;
+}
+.sw {
+  margin: 50rpx 10rpx 50rpx 10rpx;
+
+}
+.vi{
+  padding: 20rpx 0rpx 0rpx 24rpx;
+  margin: 20rpx 0rpx 0rpx 0rpx;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  border-radius: 7px;
+  align-items: center;
+  
+  z-index: 1;
+}
+.box1{
+  width: 25px;
+  height: 25px;
+  margin: 0px 0px 0px 300px;
+  background: url(https://6363-ccd-pq0cs-1306162778.tcb.qcloud.la/%E9%BD%BF%E8%BD%AE.png?sign=00d0b5927e92cbf55f48b7fc9b9a30dc&t=1631875736) no-repeat ;
+}
+
+.v{
+  padding: 0rpx 50rpx 0rpx 24rpx;
+  margin: 0rpx 19rpx 0rpx 15rpx;
+  height: 70px;
+ 
+  display: flex;
+  flex-direction: row;
+  border-radius: 7px;
+  align-items: center;
+  
+  z-index: 1;
+}
+.headerContainer {
+  width: 100%;
+  height: 300rpx;
+  background: linear-gradient(#0081ff, #0081ff);
+  overflow: hidden;
+}
+
+.headerImg {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+
+.headerImgContainer {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 10rpx auto 0 auto;
+  border-radius: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+
+}
+.nameContainer {
+  width: 100%;
+  text-align: center;
+  margin-top: 20rpx;
+  color: rgb(0, 0, 0);
+  font-size: 32rpx;
+}
+.line{
+
+  width:100%;
+  height:2rpx;
+  background:rgb(197, 196, 196);
+  
+  }
+  page {
+    width: 100%;
+    height: 100%;
+    background-color: #e9edf1;
+  }
+  
+  .headerContainer {
+    width: 100%;
+    height: 300rpx;
+    background: linear-gradient(#0081ff, #0081ff);
+    overflow: hidden;
+  }
+  
+  .headerImg {
+    width: 150rpx;
+    height: 150rpx;
+    border-radius: 50%;
+  }
+  
+  .headerImgContainer {
+    width: 150rpx;
+    height: 150rpx;
+    margin: 10rpx auto 0 auto;
+    border-radius: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+  
+    position: relative;
+  
+  
+  
+  
+  }
+  
+ 
+  .mainContentContainer {
+    background-color: #fff;
+  }
+  
+  .mainContainer {
+    width: 90%;
+    height: 100rpx;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .mainInforContainer {
+    width: 28%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .myInforImg {
+    width: 50rpx;
+    height: 34rpx;
+  }
+  .myImg {
+    width: 20px;
+    height: 20px;
+    margin: -5px;
+    background-size:20px 20px;
+    background-repeat:no-repeat;
+    background-image: url(https://636c-cloud1-5g2qde1r8a5573b0-1307745549.tcb.qcloud.la/V1.png?sign=ca9afbc85c156b4e5e920a94e2b3cb6f&t=1633857870)  ;
+  }
+  
+  .myReportImg {
+    width: 40rpx;
+    height: 50rpx;
+  }
+  
+  .myComplainImg {
+    width: 42rpx;
+    height: 50rpx;
+  }
+  
+  .realNameImg {
+    width: 43rpx;
+    height: 50rpx;
+  }
+  
+  .mainText {
+    font-size: 30rpx;
+    color: #666;
+  }
+  
+  .moreIcon {
+    width: 21rpx;
+    height: 35rpx;
+    margin-right: 10rpx;
+  }
+  
+  .unverified {
+    width: 135rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    text-align: center;
+    font-size: 30rpx;
+    color: #ff2c00;
+    border: 1px solid #ff2c00;
+    border-radius: 30rpx;
+    margin-right: 30rpx;
+  }
+  .headerBg{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .sectionContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 200rpx;
+    position: relative;
+  }
+  
+  .sectionBg{
+    width: 100%;
+    height: 100%;
+  }
+  
+  .headerImg {
+    width: 300rpx;
+    height: 80rpx;
+  }
+  
+  .complain {
+    width: 300rpx;
+    height: 80rpx;
+    position: absolute;
+    top: 60rpx;
+    left: 40rpx;
+  }
+  
+  .report {
+    width: 300rpx;
+    height: 80rpx;
+    position: absolute;
+    top: 60rpx;
+    right: 40rpx;
+  }
+  
+  

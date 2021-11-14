@@ -1,0 +1,90 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "pages/bj/bj",
+          "pathName": "pages/bj/bj",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/personalCenter/myReport/myReport",
+          "pathName": "pages/personalCenter/myReport/myReport",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/register/register",
+          "pathName": "pages/register/register",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/register/perfectInfor/perfectInfor",
+          "pathName": "pages/register/perfectInfor/perfectInfor",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/personalCenter/personalCenter",
+          "pathName": "pages/personalCenter/personalCenter",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/personalCenter/myshop/myshop",
+          "pathName": "pages/personalCenter/myshop/myshop",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/lse/lse",
+          "pathName": "pages/lse/lse",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/lse/lse",
+          "pathName": "pages/lse/lse",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "page/les/les",
+          "pathName": "pages/les/les",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/chat/chat",
+          "pathName": "pages/chat/chat",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/personalCenter/myIndex/myIndex",
+          "pathName": "pages/personalCenter/myIndex/myIndex",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,76 @@
+<view class="vi" >
+      
+      <view class="tet"> <text class="tex">个人中心</text>
+      
+      </view> 
+      <view class="box1" bindtap="myReportTap"></view>
+</view>
+<view class="cd">
+  <view class="userinfo">
+   
+     
+  
+    <view class='headerImgContainer' >
+    <open-data type="userAvatarUrl" ></open-data>
+  </view>
+
+  <view class='nameContainer'>{{userName}}</view>
+    
+
+    
+    
+  </view>
+
+</view>
+
+<view class='mainContainer' bindtap='myInforTap'>
+    <view class='mainInforContainer'>
+      <image src='/images/myInfor.png' class='myInforImg'></image>
+      <text class='mainText'>我的信息</text>
+    </view>
+    <image src='/images/moreIcon.png' class='moreIcon'></image>
+  </view>
+<view class="line"></view>
+<view class='mainContainer' bindtap='myInforTap'>
+    <view class='mainInforContainer'>
+      <image src='/images/myInfor.png' class='myInforImg'></image>
+      <text class='mainText'>我的信息</text>
+    </view>
+    <image src='/images/moreIcon.png' class='moreIcon'></image>
+  </view>
+<view class="line"></view>
+<view class='mainContainer' bindtap='myInforTap'>
+    <view class='mainInforContainer'>
+      <image src='/images/myInfor.png' class='myInforImg'></image>
+      <text class='mainText'>我的信息</text>
+    </view>
+    <image src='/images/moreIcon.png' class='moreIcon'></image>
+  </view>
+<view class="line"></view>
+<view class='mainContainer' bindtap='myIndex'>
+    <view class='mainInforContainer'>
+      <image src='/images/myInfor.png' class='myInforImg'></image>
+      <text class='mainText'>测试网页</text>
+    </view>
+    <image src='/images/moreIcon.png' class='moreIcon'></image>
+  </view>
+<view class="line"></view>
+<view class='mainContainer' bindtap='myshop'>
+    <view class='mainInforContainer'>
+      <image src='/images/myInfor.png' class='myInforImg'></image>
+      <text class='mainText'>修改密码</text>
+    </view>
+    <image src='/images/moreIcon.png' class='moreIcon'></image>
+  </view>
+<view class="line"></view>
+<view class='mainContainer' bindtap='loginout'>
+    <view class='mainInforContainer'>
+      <image src='/images/myInfor.png' class='myInforImg'></image>
+      <text class='mainText'>安全退出</text>
+    </view>
+    <image src='/images/moreIcon.png' class='moreIcon'></image>
+  </view>
+<view class="line"></view>
+
+
+

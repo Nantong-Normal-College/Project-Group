@@ -1,0 +1,51 @@
+/* pages/personalCenter/myReport/myReport.wxss */
+
+.img1{
+  width: 70px;
+  height: 100px;
+  padding: 0rpx 30rpx 0rpx 30rpx;
+  background: url(https://636c-cloud1-5g2qde1r8a5573b0-1307745549.tcb.qcloud.la/%E5%88%9D%E6%9D%A5%E4%B9%8D%E5%88%B0.png?sign=1d9a87af526913ba5a00853faa8cd8f9&t=1633856316) no-repeat ;
+}
+.img2{
+  width: 70px;
+  height: 100px;
+  padding: 0rpx 30rpx 0rpx 30rpx;
+  background: url(https://636c-cloud1-5g2qde1r8a5573b0-1307745549.tcb.qcloud.la/%E4%BC%98%E8%B4%A8.png?sign=7ee8b4ad8040f1f7c693811d512f8157&t=1633856974) no-repeat ;
+}
+.txt{
+  padding: 20rpx 50rpx 20rpx 15rpx;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+.tex{
+  font-weight: bold;
+  font-size: 19px;
+}
+.image {
+  width: 90%;
+  height: 80%;
+}
+.vi{
+  padding: 20rpx 50rpx 20rpx 24rpx;
+  margin: 20rpx 19rpx 0rpx 15rpx;
+  height: 60px;
+ 
+  display: flex;
+  flex-direction: row;
+  border-radius: 7px;
+  align-items: center;
+  
+  z-index: 1;
+}
+.T{
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  align-items: center;
+  padding: 20rpx 50rpx 20rpx 24rpx;
+  justify-content: center;
+
+
+}
+

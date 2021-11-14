@@ -1,0 +1,58 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/index/index",
+    "pages/index/complain/complain",
+    "pages/index/image/image",
+    "pages/personalCenter/personalCenter",
+    "pages/personalCenter/myInfor/myInfor",
+    "pages/noLogin/noLogin",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/register/perfectInfor/perfectInfor",
+    "pages/register/registerSuccess/registerSuccess",
+    "pages/bj/bj",
+    "pages/personalCenter/myReport/myReport",
+    "pages/personalCenter/myshop/myshop",
+    "les/les",
+    "pages/lse/lse",
+    "pages/chat/chat",
+    "pages/chat/ch/ch",
+    "pages/personalCenter/myIndex/myIndex"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#5ba7a3",
+    "navigationBarTitleText": "一往职前",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+    
+  },
+  "tabBar": {
+    "color": "#816c5b",
+    "backgroundColor": "#fff",
+    "selectedColor": "#38429f",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/images/index.png",
+        "selectedIconPath": "/images/index1.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "消息",
+        "iconPath": "/images/cc.png",
+        "selectedIconPath": "/images/cc1.png"
+      },
+      {
+        "pagePath": "pages/personalCenter/personalCenter",
+        "text": "个人中心",
+        "iconPath": "/images/home.png",
+        "selectedIconPath": "/images/home1.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,24 @@
+<!--pages/aw/aw.wxml-->
+
+
+
+<view class="userinfo">
+    <block wx:if="{{!hasUserInfo}}">
+     
+    </block>
+    <block >
+      <image  class="userinfo-avatar" src="https://6363-ccd-pq0cs-1306162778.tcb.qcloud.la/Logo1.jpg?sign=a47f386007ecb331cf4ecf46f8a0d4fa&t=1632039988" mode="cover" style="position: relative; left: 0rpx; top: -35rpx"></image>
+      <text class="text">一往职前</text>
+      <text class="text1">基于数据挖掘的智能职业规划系统</text>
+    </block>
+  </view>
+  <view class="userinfo">
+
+    
+  </view>
+
+
+
+
+<view class="register" bindtap='registerTap'>没有账号，立即注册</view>
+<view class="binding" bindtap='bindingTap'>已有账号，马上登录</view>

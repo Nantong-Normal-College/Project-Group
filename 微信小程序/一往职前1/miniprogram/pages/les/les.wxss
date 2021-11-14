@@ -1,0 +1,16 @@
+.a1{
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  align-items: center;
+  padding: 20rpx 50rpx 20rpx 24rpx;
+  justify-content: center;
+
+
+
+}
+.a2{
+  height: 350px;
+background-image: url(https://636c-cloud1-5g2qde1r8a5573b0-1307745549.tcb.qcloud.la/XXZ.png?sign=ad725a01da4aa1c2538717dc93212db0&t=1634719882);
+background-size:100%  100%;
+}

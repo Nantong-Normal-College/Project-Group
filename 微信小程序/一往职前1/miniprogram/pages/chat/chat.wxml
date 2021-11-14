@@ -1,0 +1,52 @@
+<!--pages/chat/chat.wxml-->
+<!--pages/aa/aa.wxml-->
+<view>  
+  <!--顶部导航栏-->  
+  <view class="swiper-tab">  
+    <view class="tab-item {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">官方通知  <icon class="icon-small" type="warn" size="15"></icon></view>  
+    <view class="tab-item {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">我的消息</view>  
+  </view>  
+  <!--内容主体-->  
+  <swiper class="swiper" current="{{currentTab}}" duration="200" bindchange="swiperChange">  
+    <swiper-item>  
+    
+<view class="vi" bindtap="login">
+<view class="i">
+      <view class="img"></view>
+      <view class="tet"> <text class="tex">标题</text>
+     
+      </view> 
+      <view class="re">{{time}}</view>
+      
+</view>
+概要信息
+</view>
+<view class="vi"  bindtap="login">
+<view class="i">
+      <view class="img"></view>
+      <view class="tet"> <text class="tex">标题</text>
+     
+      </view> 
+      <view class="re">{{time}}</view>
+      
+</view>
+概要信息
+</view>
+    </swiper-item>  
+    <swiper-item>  
+      <view class="vi" bindtap="login">
+<view class="i">
+      <view class="img"></view>
+      <view class="tet"> <text class="tex">123</text>
+     
+      </view> 
+      <view class="re">2021年12月31日 12:20</view>
+      
+</view>
+概要信息
+</view>
+    </swiper-item>  
+  </swiper>  
+</view>  
+
+

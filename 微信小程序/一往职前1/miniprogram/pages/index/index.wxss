@@ -1,0 +1,107 @@
+/* pages/indax/indax.wxss */
+image{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.swiper-image{
+  height: 370rpx;
+  width: 100%; 
+} 
+.swiper-image image{
+width: 100%;
+
+}
+.notification_bar {
+  
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  padding: 0 30rpx;
+  height: 50rpx;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.bar_left {
+  width: 27rpx;
+  height: 25rpx;
+}
+
+.bar_text {
+  margin-left: 60rpx;
+  font-size: 15px;
+  color: #ff7e05;
+}
+.img{
+  width: 50px;
+  height: 50px;
+  background-image: url(https://636c-cloud1-5g2qde1r8a5573b0-1307745549.tcb.qcloud.la/ASDJSF.png?sign=27270fe7c2f238aa320816779f9e581f&t=1634116659);
+}
+.img1{
+  width: 50px;
+  height: 50px;
+  background-image: url(https://636c-cloud1-5g2qde1r8a5573b0-1307745549.tcb.qcloud.la/DFHSHJ.png?sign=3781b57d845eb664fe182e3817d6fbdd&t=1634119201);
+}
+.img2{
+  width: 50px;
+  height: 50px;
+  background-image: url(https://636c-cloud1-5g2qde1r8a5573b0-1307745549.tcb.qcloud.la/SHEQUN.png?sign=cf7bc46b90a08b02ad659b87de4025c9&t=1634119339);
+}
+.img3{
+  width: 50px;
+  height: 50px;
+  background-image: url(https://636c-cloud1-5g2qde1r8a5573b0-1307745549.tcb.qcloud.la/DSDVCV.png?sign=0d43d0ab742162e7dc56ce0ac501c950&t=1634120541);
+}
+.txt{
+  padding: 0PX 5px 0px 5px;
+  color: rgb(112, 103, 103);
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+.tex{
+  color: rgb(#a1a19f);
+  font-weight: bold;
+  font-size: 19px;
+}
+.image {
+  width: 90%;
+  height: 80%;
+}
+.vi{
+  
+  height: 110px;
+  
+  display: flex;
+  flex-direction: row;
+  border-radius: 7px;
+  align-items: center;
+  box-shadow:0px 0px 10px #ffffff;
+  z-index: 1;
+}
+.T{
+  display: flex;
+  font-size: large;
+
+  align-items: center;
+  padding: 20rpx 50rpx 20rpx 24rpx;
+  justify-content: center;
+
+
+}
+
+.vii{
+  padding: 20px 20px 20px 20px;
+ width: 50%;
+  height: 60px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  border-radius: 7px;
+  align-items: center;
+  box-shadow:0px 0px 10px #ffffff;
+  z-index: 1;
+}

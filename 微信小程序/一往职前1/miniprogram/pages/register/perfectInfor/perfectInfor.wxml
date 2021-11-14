@@ -1,0 +1,46 @@
+<!--返回主页  -->
+<view class='backHome' bindtap='backHomeTap'>
+  <image src='/images/homeIcon.png' class='backHomeImg'></image>
+</view>
+<!--头部  -->
+<view class='headerContainer'>
+  <!--创建账户  -->
+  <view class='headerListContainer headerListOldActive'>
+    <view class='headerListView'>1</view>
+    <text class='headerListText'>创建账户</text>
+  </view>
+  <!--完善个人信息  -->
+  <view class='headerListContainer headerListActive'>
+    <view class='headerListView'>2</view>
+    <text class='headerListText'>完善个人信息</text>
+  </view>
+  <!--注册成功  -->
+  <view class='headerListContainer'>
+    <view class='headerListView'>3</view>
+    <text class='headerListText'>注册成功</text>
+  </view>
+  <view class='transverseLineLeft'></view>
+  <view class='transverseLineright'></view>
+</view>
+<!--main  -->
+<view class='mainContainer'>
+  <!--手机  -->
+  <view class='mainListContainer'>
+    <view class='mainListText'>手机</view>
+    <input class='mainListInput' placeholder='请输入手机号码' maxlength="11" bindinput='phoneInput'></input>
+  </view>
+  <!--真实姓名  -->
+  
+  <!--证件类型  -->
+  
+  <!--证件号码  -->
+  
+  <!--邮箱  -->
+  <view class='mainListContainer'>
+    <view class='mainListText'>邮箱</view>
+    <input class='mainListInput' placeholder='请输入常用的邮箱地址' bindinput='emailInput'></input>
+  </view>
+ 
+</view>
+<!--nextButton  -->
+<view class='nextButton' bindtap='registerSuccessTap'>完成</view>

@@ -1,0 +1,6 @@
+/* pages/lse/lse.wxss */
+page{
+  height: 3000px;
+background-image: url(https://636c-cloud1-5g2qde1r8a5573b0-1307745549.tcb.qcloud.la/1111.png?sign=accf333ff73ffc15a2599029d726c926&t=1634649127);
+background-size:100%  3000px;
+}

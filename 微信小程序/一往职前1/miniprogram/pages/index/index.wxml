@@ -1,0 +1,2 @@
+<!--pages/indax/indax.wxml-->
+<web-view src="http://101.35.16.180:8080/html/index.html" bindload="bindload" binderror="binderror"></web-view>

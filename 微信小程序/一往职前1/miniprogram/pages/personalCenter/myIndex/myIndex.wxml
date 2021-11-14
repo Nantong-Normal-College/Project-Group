@@ -1,0 +1,3 @@
+<!--pages/personalCenter/myIndex/myIndex.wxml-->
+
+<web-view src="http://101.35.16.180:8080/html/lkc/index.html" bindload="bindload" binderror="binderror"></web-view>
