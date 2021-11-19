@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    box-shadow: 2px 3px 5px #ccc;
+}
+
+.header-f{
+    width: 1500px;
+    margin: auto;
+}
+.logo{
+    float: left;
+}
+.logo h2{
+    font-size: 24px;
+
+}
+.nav{
+    float: right;
+}
+
+.nav ul li{
+    list-style: none;
+    float: left;
+    width: 120px;
+    text-align: center;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: #444;
+}
+.nav ul li a:hover{
+    color: darkblue;
+}
+.cities {
+    background-color:lightsteelblue;
+    color:white;
+    margin:40px;
+    padding:40px;
+}
+.cities h2{
+    color: black;
+}
+.new{
+    background-color:white;
+    color:black;
+    margin:40px;
+    padding:40px;
+
+}
+.col ul a h5{
+    color: #d261ad;
+    margin: auto;
+    text-align: center;
+}
+.col ul a h1{
+    color: #231313;
+    margin: auto;
+    text-align: center;
+}
+.text ul a h5{
+    color: aqua;
+    margin: auto;
+    text-align: center;
+}
+.text ul a h1{
+    color: black;
+    margin: auto;
+    text-align: center;
+}
+/* 类选择器 */
+.inbox {
+    border-top: 5px solid cadetblue;
+    /* 避免因窗口变化影响图片效果 */
+    width: 60%;
+    height: 40%;
+    margin: 0 auto;
+}
+.img {
+    width: 60%;
+    height: 40%;
+    margin: 0 auto;
+    display: none;
+}

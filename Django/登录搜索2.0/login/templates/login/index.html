@@ -1,0 +1,108 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>一往职前官网</title>
+    <link rel="stylesheet" type="text/css" href="../../static/login/css/index.css">
+</head>
+
+<body>
+<div class="header">
+    <div class="header-f">
+    <div class="logo">
+        <h2 align="center"><img src="../../static/login/image/dark-logo.png" width="145" height="40" align="left"/>
+        <img src="../../static/login/image/Logo1.jpg" width="50" height="50" align="left"/>
+        </h2>
+    </div>
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="index.html">主页</a>
+            </li>
+            <li>
+                <a href="index.html">测试</a>
+            </li>
+            <li>
+                <a href="index.html">课程</a>
+            </li>
+            <li>
+                <a href="index.html">论坛</a>
+            </li>
+            <li>
+                <a href="index.html">学习</a>
+            </li>
+            <li>
+                <a href="index.html">登录</a>
+            </li>
+        </ul>
+
+    </div>
+    </div>
+</h2>
+</div>
+
+<div class="cities">
+    <h2>介绍</h2>
+    <p>大学是人生中最宝贵的时光，更是职业生涯的重要准备期。本课程帮助大学生规划未来发展，掌握自我探索、职业探索、生涯决策方法，提高求职技巧，培养职业素质，提升生涯管理能力。
+        有助于提高大学生的就业竞争力，帮助其科学选择职业发展道路，进而在未来的职业生涯中获得成功。</p>
+
+</div>
+
+<div class="col">
+    <ul>
+        <a>
+            <h5>YOU CAN DO THESE THINGS HERE</h5>
+        </a>
+        <a>
+            <h1>你可以在这里进行</h1>
+        </a>
+    </ul>
+</div>
+
+<div class="inbox">
+    <img class="img-slide img" src="../../static/login/image/blog1.jpg" height="300" width="600" alt="img1">
+    <img class="img-slide img" src="../../static/login/image/blog2.jpg" height="300" width="600" alt="img2">
+    <img class="img-slide img" src="../../static/login/image/blog3.jpg" height="300" width="600" alt="img3">
+    <img class="img-slide img" src="../../static/login/image/blog4.jpg" height="300" width="600" alt="img4">
+</div>
+<script type="text/javascript">
+    // index：索引， len：长度
+    var index = 0, len;
+    // 类似获取一个元素数组
+    var imgBox = document.getElementsByClassName("img-slide");
+    len = imgBox.length;
+    imgBox[index].style.display = 'block';
+    // 逻辑控制函数
+    function slideShow() {
+        index ++;
+        // 防止数组溢出
+        if(index >= len) index = 0;
+        // 遍历每一个元素
+        for(var i=0; i<len; i++) {
+            imgBox[i].style.display = 'none';
+        }
+        // 每次只有一张图片显示
+        imgBox[index].style.display = 'block';
+    }
+
+    // 定时器，间隔3s切换图片
+    setInterval(slideShow, 3000);
+
+</script>
+<div class="text">
+    <ul>
+        <a>
+            <h5>RICH TEST CONTENT</h5>
+        </a>
+        <a>
+            <h1>具有丰富的测试内容</h1>
+        </a>
+    </ul>
+</div>
+
+<p>
+    <a href="/logout/">登出</a>
+</p>
+</body>
+</html>

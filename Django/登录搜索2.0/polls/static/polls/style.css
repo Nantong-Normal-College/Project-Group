@@ -1,0 +1,11 @@
+li a {
+    color: skyblue;
+    text-align: center;
+    font-size: 40px;
+}
+body {
+    background: deepskyblue url("images/006.jpg") no-repeat center center;
+    background-size: cover;
+    height: 804px;
+}
+
